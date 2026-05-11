@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>救护车信息</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f4f4f4;
+            font-family: "Microsoft YaHei", sans-serif;
+            padding: 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .plate {
+            background-color: #f5f7fa;
+            color: #007bff;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            padding: 18px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 14px 0;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 16px;
+        }
+        .info-row:last-child {
+            border-bottom: none;
+        }
+        .label {
+            color: #666;
+        }
+        .value {
+            color: #333;
+            font-weight: 500;
+        }
+        .report-btn {
+            display: block;
+            width: 100%;
+            background-color: #e53935;
+            color: #fff;
+            text-align: center;
+            font-size: 17px;
+            padding: 15px;
+            border-radius: 50px;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+        .tip {
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="title">车辆信息</div>
+        <div class="plate">川R15KB0</div>
+        <div class="info-row">
+            <span class="label">车辆编号</span>
+            <span class="value">511300258770</span>
+        </div>
+        <div class="info-row">
+            <span class="label">所属医疗机构</span>
+            <span class="value">南充高坪太禾医院</span>
+        </div>
+    </div>
+    <a href="tel:081758896120" class="report-btn">
+        线索收集电话(081758896120)
+    </a>
+    <div class="tip">
+        如有关于该救护车辆的服务质量、违规行为等问题，请联系举报。
+    </div>
+</body>
+</html>
